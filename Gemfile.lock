@@ -1,13 +1,13 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    wkhtmltopdf-binary (0.9.9.3)
+    wkhtmltopdf-heroku (2.12.3.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  wkhtmltopdf-binary
+  wkhtmltopdf-heroku
 
 BUNDLED WITH
    1.11.2
