@@ -14,7 +14,7 @@ router.get('/', function(req, res, next) {
 		var old_value = "https://c.na4.content.force.com/servlet/servlet.ImageServer?id=01560000000Ucvz&oid=00D6000000079Qk";
 		// var new_value = "file:///Users/dmr/workspace/ruby-node/combo-project/zayo_title.png";
 		// var new_value = "http://localhost:3000/images/zayo_title.png";
-		var new_value = "https://combo-7.herokuapp.com/images/zayo_title.png";
+		var new_value = "/images/zayo_title.png";
 		var adusted_value = new_data.replace(old_value, new_value);
 		var final_data = new Buffer(adusted_value).toString('ascii');
 		console.log(final_data);
